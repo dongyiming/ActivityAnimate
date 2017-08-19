@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rlayout_yifei"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/img_yifei"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/img_yifei"
+            android:transitionName="liuyifei" />
+
+        <ImageView
+            android:id="@+id/img_heart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img_heart" />
+
+        <TextView
+            android:id="@+id/txt_yifei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_heart"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_heart"
+            android:text="古装第一美女刘亦菲"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlayout_xingye"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="fitXY"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/img_xingye"
+            android:transitionName="xingye" />
+
+        <ImageView
+            android:id="@+id/img_cry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/img_cry" />
+
+        <TextView
+            android:id="@+id/txt_xingye"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/img_cry"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/img_cry"
+            android:text="500年虐恋"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
